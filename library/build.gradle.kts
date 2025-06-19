@@ -28,18 +28,23 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
+                implementation(libs.kotlinx.coroutines.core)
             }
         }
         val commonTest by getting {
             dependencies {
+                implementation(libs.kotlin.test)
+                implementation(libs.kotlinx.coroutines.test)
             }
         }
         val jvmMain by getting {
             dependencies {
+                implementation(libs.kotlinx.coroutines.core.jvm)
             }
         }
         val androidMain by getting {
             dependencies {
+                implementation(libs.kotlinx.coroutines.android)
             }
         }
     }
