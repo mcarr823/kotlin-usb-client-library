@@ -68,3 +68,36 @@ android {
     }
 }
 
+mavenPublishing {
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+
+    signAllPublications()
+
+    coordinates(group.toString(), "library", version.toString())
+
+    pom {
+        name = "Kotlin USB Client Library"
+        description = "Kotlin Multiplatform Module for accessing Serial Ports from Kotlin code"
+        inceptionYear = "2025"
+        url = "https://github.com/mcarr823/kotlin-usb-client-library/"
+        licenses {
+            license {
+                name = "GNU GENERAL PUBLIC LICENSE, Version 3"
+                url = "https://www.gnu.org/licenses/gpl-3.0.en.html"
+                distribution = "https://www.gnu.org/licenses/gpl-3.0.en.html"
+            }
+        }
+        developers {
+            developer {
+                id = "mcarr823"
+                name = "mcarr823"
+                url = "https://github.com/mcarr823/"
+            }
+        }
+        scm {
+            url = "https://github.com/mcarr823/kotlin-usb-client-library/"
+            connection = "scm:git:git://github.com/mcarr823/kotlin-usb-client-library.git"
+            developerConnection = "scm:git:ssh://git@github.com/mcarr823/kotlin-usb-client-library.git"
+        }
+    }
+}
