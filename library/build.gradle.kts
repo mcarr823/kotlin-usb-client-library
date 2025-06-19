@@ -39,12 +39,16 @@ kotlin {
         }
         val jvmMain by getting {
             dependencies {
+                // https://github.com/Fazecast/jSerialComm
+                implementation(libs.jserialcomm)
                 implementation(libs.kotlinx.coroutines.core.jvm)
             }
         }
         val androidMain by getting {
             dependencies {
                 implementation(libs.kotlinx.coroutines.android)
+                // https://github.com/Fazecast/jSerialComm
+                implementation(libs.jserialcomm)
             }
         }
     }
