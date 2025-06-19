@@ -5,6 +5,7 @@ kotlin = "2.1.21"
 android-minSdk = "24"
 android-compileSdk = "34"
 kotlinxCoroutinesCore = "1.10.2"
+usbSerialForAndroid = "3.9.0"
 
 [libraries]
 jserialcomm = { module = "com.fazecast:jSerialComm", version.ref = "jserialcomm" }
@@ -13,6 +14,7 @@ kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
 kotlinx-coroutines-core-jvm = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version.ref = "kotlinxCoroutinesCore" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesCore" }
+usb-serial-android = { module = "com.github.mik3y:usb-serial-for-android", version.ref = "usbSerialForAndroid" }
 
 [plugins]
 androidLibrary = { id = "com.android.library", version.ref = "agp" }

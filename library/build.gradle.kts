@@ -49,6 +49,8 @@ kotlin {
                 implementation(libs.kotlinx.coroutines.android)
                 // https://github.com/Fazecast/jSerialComm
                 implementation(libs.jserialcomm)
+                // https://github.com/mik3y/usb-serial-for-android
+                implementation(libs.usb.serial.android)
             }
         }
     }
