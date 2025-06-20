@@ -20,10 +20,10 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_11)
         }
     }
-    iosX64()
-    iosArm64()
-    iosSimulatorArm64()
-    linuxX64()
+    //iosX64()
+    //iosArm64()
+    //iosSimulatorArm64()
+    //linuxX64()
 
     sourceSets {
         val commonMain by getting {
