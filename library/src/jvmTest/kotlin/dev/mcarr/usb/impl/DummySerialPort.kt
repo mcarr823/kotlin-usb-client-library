@@ -160,6 +160,17 @@ class DummySerialPort : AbstractSerialPortWrapper() {
         // since there isn't one.
     }
 
+    override fun setBaudRate(rate: Int) {
+        // Do nothing
+        // There is no serial port for which to set the value
+    }
+
+    override fun bytesAvailable(): Int {
+        // Always return 0, since this dummy port will never
+        // have any data
+        return 0
+    }
+
     override fun open() {
         socketIsOpen = true
     }

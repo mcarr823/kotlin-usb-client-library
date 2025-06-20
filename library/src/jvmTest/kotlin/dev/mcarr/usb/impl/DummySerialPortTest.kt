@@ -61,26 +61,30 @@ class DummySerialPortTest {
         assertFalse(port.isOpen())
 
         // Port is open inside of the use block
-        port.use {
-            assertTrue(it.isOpen())
+        runTest{
+            port.use {
+                assertTrue(it.isOpen())
+            }
         }
 
         // Port is closed after the use block completes
         assertFalse(port.isOpen())
 
-        // Open the port with a use block, and throw an exception
-        // while the port is in use
-        try {
-            port.use {
-                throw Exception("Intentionally triggered exception")
+        runTest{
+            // Open the port with a use block, and throw an exception
+            // while the port is in use
+            try {
+                port.use {
+                    throw Exception("Intentionally triggered exception")
+                }
+            }catch (e: Exception){
+                //
             }
-        }catch (e: Exception){
-            //
-        }
 
-        // Confirm that the use block has closed the port even though an
-        // exception was thrown
-        assertFalse(port.isOpen())
+            // Confirm that the use block has closed the port even though an
+            // exception was thrown
+            assertFalse(port.isOpen())
+        }
 
     }
 
@@ -96,7 +100,7 @@ class DummySerialPortTest {
     fun testRead() {
 
         // Set the read timeout to 100ms
-        port.setTimeouts(100, 0)
+        port.setDefaultTimeouts(100, 0)
 
         // Empty read
         runTest {
@@ -185,7 +189,7 @@ class DummySerialPortTest {
     @Test
     fun testWrite() {
 
-        port.setTimeouts(0, 100)
+        port.setDefaultTimeouts(0, 100)
 
         // Empty write
         runTest {
