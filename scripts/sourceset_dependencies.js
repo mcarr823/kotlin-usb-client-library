@@ -1,0 +1,1 @@
+sourceset_dependencies='{":library/androidDebug":[":library/commonMain"],":library/androidMain":[":library/commonMain"],":library/androidRelease":[":library/commonMain"],":library/commonMain":[],":library/jvmMain":[":library/commonMain"]}'
