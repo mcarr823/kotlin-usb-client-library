@@ -46,6 +46,10 @@ device.use{
 }
 ```
 
+## API Documentation
+
+Javadoc can be found [here](https://mcarr823.github.io/kotlin-usb-client-library).
+
 ## Setup
 
 The setup instructions below assume that you're building a gradle project, with a TOML file for dependency management and KTS files for gradle scripts.
@@ -113,3 +117,4 @@ kotlin {
 - dokka or other javadoc plugin
 - automate unit test CI
 - check if timeouts are working properly
+- list required java version
