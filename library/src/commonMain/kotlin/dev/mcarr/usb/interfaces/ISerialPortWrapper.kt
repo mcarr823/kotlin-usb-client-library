@@ -20,6 +20,16 @@ interface ISerialPortWrapper {
     var defaultWriteTimeout: Long
 
     /**
+     * VID value of the serial port, or -1 if unavailable
+     * */
+    var vendorId: Int
+
+    /**
+     * PID value of the serial port, or -1 if unavailable
+     * */
+    var productId: Int
+
+    /**
      * Opens a connection to the serial port and closes it automatically
      * after the callback has completed.
      *

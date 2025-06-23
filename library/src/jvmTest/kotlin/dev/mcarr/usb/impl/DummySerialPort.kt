@@ -11,6 +11,9 @@ import java.nio.ByteBuffer
  * */
 class DummySerialPort : AbstractSerialPortWrapper() {
 
+    override var vendorId = 0
+    override var productId = 0
+
     /**
      * Keeps track of whether the port is "open" or not, since
      * there's no actual port to check.

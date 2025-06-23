@@ -12,6 +12,9 @@ class SerialPortWrapper(
     private val port: SerialPort
 ) : AbstractSerialPortWrapper() {
 
+    override var vendorId = port.vendorID
+    override var productId = port.productID
+
     override suspend fun readBytes(buffer: ByteArray): Int {
         return port.readBytes(buffer, buffer.size)
     }

@@ -17,6 +17,9 @@ class UsfaPortWrapper(
     val driver: UsbSerialDriver
 ) : AbstractSerialPortWrapper() {
 
+    override var vendorId = driver.device.vendorId
+    override var productId = driver.device.productId
+
     val manager = c.getSystemService(Context.USB_SERVICE) as UsbManager
     lateinit var port: UsbSerialPort
 
