@@ -1,6 +1,11 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:dev.mcarr.usb.abstracts////PointingToDeclaration/library/dev.mcarr.usb.abstracts/index.html
+$dokka.location:dev.mcarr.usb.abstracts/AbstractSerialPortList///PointingToDeclaration/library/dev.mcarr.usb.abstracts/-abstract-serial-port-list/index.html
+$dokka.location:dev.mcarr.usb.abstracts/AbstractSerialPortList/AbstractSerialPortList/#/PointingToDeclaration/library/dev.mcarr.usb.abstracts/-abstract-serial-port-list/-abstract-serial-port-list.html
+$dokka.location:dev.mcarr.usb.abstracts/AbstractSerialPortList/get/#kotlin.Int#kotlin.Int/PointingToDeclaration/library/dev.mcarr.usb.abstracts/-abstract-serial-port-list/get.html
+$dokka.location:dev.mcarr.usb.abstracts/AbstractSerialPortList/getByProductId/#kotlin.Int/PointingToDeclaration/library/dev.mcarr.usb.abstracts/-abstract-serial-port-list/get-by-product-id.html
+$dokka.location:dev.mcarr.usb.abstracts/AbstractSerialPortList/getByVendor/#kotlin.Int/PointingToDeclaration/library/dev.mcarr.usb.abstracts/-abstract-serial-port-list/get-by-vendor.html
 $dokka.location:dev.mcarr.usb.abstracts/AbstractSerialPortWrapper///PointingToDeclaration/library/dev.mcarr.usb.abstracts/-abstract-serial-port-wrapper/index.html
 $dokka.location:dev.mcarr.usb.abstracts/AbstractSerialPortWrapper/AbstractSerialPortWrapper/#/PointingToDeclaration/library/dev.mcarr.usb.abstracts/-abstract-serial-port-wrapper/-abstract-serial-port-wrapper.html
 $dokka.location:dev.mcarr.usb.abstracts/AbstractSerialPortWrapper/defaultReadTimeout/#/PointingToDeclaration/library/dev.mcarr.usb.abstracts/-abstract-serial-port-wrapper/default-read-timeout.html
@@ -28,9 +33,11 @@ $dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/bytesAvailable/#/PointingTo
 $dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/close/#/PointingToDeclaration/library/dev.mcarr.usb.impl/[jvm]-serial-port-wrapper/close.html
 $dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/isOpen/#/PointingToDeclaration/library/dev.mcarr.usb.impl/[jvm]-serial-port-wrapper/is-open.html
 $dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/open/#/PointingToDeclaration/library/dev.mcarr.usb.impl/[jvm]-serial-port-wrapper/open.html
+$dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/productId/#/PointingToDeclaration/library/dev.mcarr.usb.impl/[jvm]-serial-port-wrapper/product-id.html
 $dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/readBytes/#kotlin.ByteArray/PointingToDeclaration/library/dev.mcarr.usb.impl/[jvm]-serial-port-wrapper/read-bytes.html
 $dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/setBaudRate/#kotlin.Int/PointingToDeclaration/library/dev.mcarr.usb.impl/[jvm]-serial-port-wrapper/set-baud-rate.html
 $dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/setTimeout/#/PointingToDeclaration/library/dev.mcarr.usb.impl/[jvm]-serial-port-wrapper/set-timeout.html
+$dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/vendorId/#/PointingToDeclaration/library/dev.mcarr.usb.impl/[jvm]-serial-port-wrapper/vendor-id.html
 $dokka.location:dev.mcarr.usb.impl/SerialPortWrapper/writeBytes/#kotlin.ByteArray/PointingToDeclaration/library/dev.mcarr.usb.impl/[jvm]-serial-port-wrapper/write-bytes.html
 $dokka.location:dev.mcarr.usb.impl/UsfaPortList///PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-list/index.html
 $dokka.location:dev.mcarr.usb.impl/UsfaPortList/UsfaPortList/#android.content.Context/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-list/-usfa-port-list.html
@@ -45,13 +52,18 @@ $dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/isOpen/#/PointingToDeclaratio
 $dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/manager/#/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-wrapper/manager.html
 $dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/open/#/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-wrapper/open.html
 $dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/port/#/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-wrapper/port.html
+$dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/productId/#/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-wrapper/product-id.html
 $dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/readBytes/#kotlin.ByteArray/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-wrapper/read-bytes.html
 $dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/setBaudRate/#kotlin.Int/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-wrapper/set-baud-rate.html
 $dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/setTimeout/#/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-wrapper/set-timeout.html
+$dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/vendorId/#/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-wrapper/vendor-id.html
 $dokka.location:dev.mcarr.usb.impl/UsfaPortWrapper/writeBytes/#kotlin.ByteArray/PointingToDeclaration/library/dev.mcarr.usb.impl/-usfa-port-wrapper/write-bytes.html
 $dokka.location:dev.mcarr.usb.interfaces////PointingToDeclaration/library/dev.mcarr.usb.interfaces/index.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortList///PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-list/index.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortList/get/#/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-list/get.html
+$dokka.location:dev.mcarr.usb.interfaces/ISerialPortList/get/#kotlin.Int#kotlin.Int/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-list/get.html
+$dokka.location:dev.mcarr.usb.interfaces/ISerialPortList/getByProductId/#kotlin.Int/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-list/get-by-product-id.html
+$dokka.location:dev.mcarr.usb.interfaces/ISerialPortList/getByVendor/#kotlin.Int/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-list/get-by-vendor.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper///PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/index.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/bytesAvailable/#/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/bytes-available.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/close/#/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/close.html
@@ -59,6 +71,7 @@ $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/defaultReadTimeout/#
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/defaultWriteTimeout/#/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/default-write-timeout.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/isOpen/#/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/is-open.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/open/#/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/open.html
+$dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/productId/#/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/product-id.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/read/#kotlin.Int#kotlin.Long#kotlinx.coroutines.CoroutineScope/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/read.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/read/#kotlin.Int#kotlin.Long/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/read.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/read/#kotlin.Int#kotlinx.coroutines.CoroutineScope/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/read.html
@@ -66,6 +79,7 @@ $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/read/#kotlin.Int/Poi
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/setBaudRate/#kotlin.Int/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/set-baud-rate.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/setDefaultTimeouts/#kotlin.Long#kotlin.Long/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/set-default-timeouts.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/use/#kotlin.coroutines.SuspendFunction1[dev.mcarr.usb.interfaces.ISerialPortWrapper,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/use.html
+$dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/vendorId/#/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/vendor-id.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/write/#kotlin.ByteArray#kotlin.Long#kotlinx.coroutines.CoroutineScope/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/write.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/write/#kotlin.ByteArray#kotlin.Long/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/write.html
 $dokka.location:dev.mcarr.usb.interfaces/ISerialPortWrapper/write/#kotlin.ByteArray#kotlinx.coroutines.CoroutineScope/PointingToDeclaration/library/dev.mcarr.usb.interfaces/-i-serial-port-wrapper/write.html
