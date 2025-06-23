@@ -21,6 +21,8 @@ This library provides:
 | iOS      | &cross;   |                               |
 | Web      | &cross;   |                               |
 
+* Requires Java 21 or higher
+
 
 ## Usage
 
@@ -114,7 +116,7 @@ kotlin {
 - add Linux native support
 - look into web support
 - test Android version
-- dokka or other javadoc plugin
+
 - automate unit test CI
 - check if timeouts are working properly
-- list required java version
+
